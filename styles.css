@@ -1,8 +1,7 @@
 h2 {
-	color: #CCCCCC;
-	design:block;
+	color: #CCC;
 	background-color:#000;
-	padding:10 0 ;
+	padding:10 0 10 20;
 	}
 h3 {
 	color: #CCCCCC;
@@ -104,11 +103,22 @@ padding: 2px 4px 2px 6px;
 margin: 0 0 10px 0;
 border: 1px dotted #B1B1B1;
 background-color: #F4F4F4;
+min-height:40px;
+}
+
+/** could use less to divide height by half  **/
+.adbox2 {
+padding: 2px 4px 2px 6px;
+margin: 0 0 10px 0;
+border: 1px dotted #B1B1B1;
+background-color: #F4F4F4;
+min-height:10px;
 }
 
 
 a.menu:link{
    color: #901602;
+   
    text-decoration:none;
 }
 
