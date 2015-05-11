@@ -1,3 +1,10 @@
+*.jpg
+*.png
+*.gif
+*.pdf
+*.doc
+*.dox
+*.LOG
 /Rose_Decorating/R\&R\ decoration\ requirements\ -\ documents
 /Desktop/Rose_Decorating/images 
 /Desktop/Rose_Decorating/WS_FTP.LOG
