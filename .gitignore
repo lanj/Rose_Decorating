@@ -5,6 +5,13 @@
 *.doc
 *.dox
 *.LOG
+images/*.png
+images/*.png
+images/*.gif
+images/*.jpg
+images/*.psd
+R&R decorations requirements-documents/*.doc
+R&R decorations requirements-documents/*.dox
 /Rose_Decorating/R\&R\ decoration\ requirements\ -\ documents
 /Desktop/Rose_Decorating/images 
 /Desktop/Rose_Decorating/WS_FTP.LOG
