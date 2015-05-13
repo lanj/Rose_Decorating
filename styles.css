@@ -102,8 +102,11 @@ li.nli{
 padding: 2px 4px 2px 6px;
 margin: 0 0 10px 0;
 border: 1px dotted #B1B1B1;
-background-color: #F4F4F4;
-min-height:40px;
+background-color: #000;
+height:200px;
+width: 300px;
+min-height:80px;
+min-width: 80px;
 }
 
 /** could use less to divide height by half  **/
