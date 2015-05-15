@@ -1,0 +1,329 @@
+
+
+
+@media screen and (min-width:801px){
+ /* style definition apply */
+
+
+	body {
+		background-color: #fff;
+		width: auto;
+		align: center;
+		margin-right: 0%;
+		margin-bottom: 5%;
+		margin-left:0;
+		margin-top: 0px;
+		padding:0 0 0 0%;	
+	
+	}
+
+	.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	.group { display: inline-block; clear: both; }
+	/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+	article, aside, figure, footer, header, nav, section { display: block; }
+
+
+
+	/** OTHER LAYOUT TAGS IN ALPHABETICAL ORDER UNLESS ITS A CLASS , ID OR CHILD OF TAG */
+
+
+
+	div#main{
+
+	}
+
+
+
+	div.banner{
+	    background-color:F31A38;
+	    margin-bottom:0px;
+	}
+
+
+	div#container{
+        
+		background-color: #FFFFFF;
+		width: auto;
+	    height:860px;
+		margin: 0% 2% 2% 2%;
+		top: 0%;
+		bottom:1%;
+		/** background: url(images/background.png) repeat; */
+
+	}
+
+	header {
+		position:relative;
+		margin-top:0%;
+		margin-left:0%;
+		height: 25%;
+		width: 100%;
+	    left:0px;
+	    text-align:left;
+		margin-bottom:1%;
+		border-top:20px solid #fff;
+		border-bottom: 10px solid #fff;
+		background-repeat: no-repeat;
+		background-position:center right;
+		/** MODIFIED FOR TESTING */
+		background: url(images/paint11G.png) no-repeat;
+		z-index:7;
+	
+	}	
+
+	/** side navigation as alternative **/
+
+	nav#sideNav {
+		position:fixed;
+		width: 185px;
+		height:280px;
+		margin-left:82%;
+		margin-top:-5%;
+		margin-bottom:20%;
+		padding: 50px 10px 1800px 15px;
+		font-weight: normal;
+		background-color:#7d95b2;
+		text-align: left;
+		text-decoration: none;
+		z-index:6;
+	
+	}
+
+
+	nav#sideNav .menuside a:link{
+		color: #000;
+		text-decoration:none;
+		background-color:#7d95b2;
+	
+	
+	}
+
+
+	nav#sideNav .menuside a:visited{
+	  color: #000;
+	  font-size:1em;
+	  text-decoration:none;
+	  background-color:#7d95b2;
+	}
+
+	nav#sideNav .menuside a:hover {
+		color: #0FF;
+		background-color:#CCC;
+		text-decoration:none;
+	
+	}
+
+
+	/** the top Navigation section  begins **/
+
+	/** can use some less here to control the width **/
+
+	nav#topNav{
+		position:relative;
+		margin-left:0%;
+		height:40px;
+		width:100%;
+		margin-top:0%;
+		margin-bottom:2%;
+		background-color:#7d95b2;
+		padding:3px;
+		z-index:6;
+	
+  
+	}
+
+	#topNav ul#menu
+	{
+	   position:relative;
+	   float:left;
+	   list-style: none;
+	   margin-top:5px;
+	   margin-left:0px;
+	   margin-right:0px;
+	   margin-bottom:4%;
+	   width:100%;
+	   height:50px;
+	   padding-top:5px;
+	   padding-bottom:1%;
+	   background-color:transparent;
+	   display:block;
+  
+	}
+
+
+	#topNav ul#menu li
+	{
+   
+	   display:inline; 
+	   margin-top:1%;
+	   margin-left:2%;
+	   margin-right:2%;
+	   margin-bottom:2%;
+	   padding-right:2%;
+	   padding-bottom:0%;
+	   background-color:transparent;
+	   border-right: 1px dotted #fff;
+	   width:60%;
+	   height:90px;
+  
+	}
+
+	#topNav ul#menu  li a:link{
+	   color: #ffffff;
+	   text-decoration:none;
+	}
+
+	#topNav ul#menu li a:visited{
+	  color: #ffffff;
+	  text-decoration:none;
+	}
+
+	#topNav ul#menu li  a:hover{
+	    color: #621313;
+	    text-decoration:none;
+	}
+
+
+	#secondNav ul#menu
+	{
+	   position:relative;
+	   float:left;
+	   list-style: none;
+	   margin-top:0%;
+	   margin-left:0px;
+	   margin-right:0px;
+	   margin-bottom:2%;
+	   width:100%;
+	   height:20px;
+	   padding-top:10px;
+	   padding-bottom:2%;
+	   color:#000;
+	   background-color: white;
+	   display:block;
+	   z-index:5;
+  
+	}
+
+
+	#secondNav ul#menu li
+	{
+   
+	   display:inline; 
+	   margin-top:0%;
+	   margin-left:1%;
+	   margin-right:1%;
+	   padding-right:1%;
+	   padding-bottom:1%;
+	   font-size:.70em;
+	   color:#000;
+	   background-color:white;
+	   border-right: 1px dotted #fff;
+	   width:80%;
+	   height:20px;
+  
+	}
+
+	#secondNav ul#menu  li a:link{
+	   color: #000;
+	   text-decoration:none;
+	}
+
+	#secondNav ul#menu li a:visited{
+	  color: #000667;
+	  text-decoration:none;
+	}
+
+	#secondNav ul#menu li  a:Hover{
+	    color: #621313;
+	    text-decoration:none;
+	}
+
+
+
+	/** top Navigation section ends here **/
+
+	div#content {
+		position:relative;
+		display: block;
+		float:left;
+		margin-right:3%;
+		margin-top:0%;
+		width:55%;
+		height:100%;
+		padding:10px 5px 0px 30px;
+		background: #ffffff;
+	    border-top: 1px dotted #cccccc;
+		text-align: left;
+		vertical-align: text-top;
+		display: block;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	    z-index:3;
+	
+
+	}
+
+	/**
+	 article and content section ends 
+	**/
+
+
+	/** right column or sidebar section */
+	aside{
+		position:relative;
+		float:left;
+		width:auto;
+		padding:10px 15px 0px 2%;
+		text-align: left;
+		display: block;
+		margin-top: 0%;
+		border-left: 1px dotted #cccccc;
+	    border-top: 1px dotted #cccccc;
+		background-color:#fff;
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    z-index:4;	
+	}
+
+	/** aside internal sub-sections */
+	.adbox {
+	padding: 2px 4px 2px 6px;
+	margin: 0 0 10px 0;
+	border: 1px dotted #B1B1B1;
+	background-color: #000;
+	height:200px;
+	width: 300px;
+	min-height:80px;
+	min-width: 80px;
+	}
+
+
+	/** footer section */
+	footer {
+		position:relative;
+		float:left;
+		width:100%;
+		height:200px;
+		margin-top:auto;
+		bottom:0px;
+	    margin:auto 0;
+		align:center;
+	    border-top: 4px line #000;
+		text-align:center;
+		background-color:#7d95b2;
+		color:#fff;
+	    z-index:16;
+	}
+
+	/** footer internal sub-sections */
+	/** could use less to divide height of adbox by half */
+	.fotbox {
+	padding: 2px 4px 2px 6px;
+	margin: 0 0 10px 0;
+	border: 1px dotted #B1B1B1;
+	background-color: #F4F4F4;
+	min-height:10px;
+	}
+
+} /** end screen media */
